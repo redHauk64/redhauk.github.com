@@ -1,0 +1,21 @@
+body{
+    background: linear-gradient(to right, #00FF78 , #00FF);
+}
+
+h1 {
+    color: red;
+    position: relative;
+    font-family: 'Courier New', Courier, monospace;
+    font-style: italic;
+    font-weight: 700;
+    font-size: 1.6rem;
+
+    animation-name: myanimation;
+    animation-duration: 4s;
+    animation-fill-mode: forwards;
+}
+
+@keyframes myanimation {
+    0%{left: 0;}
+    100%{left: 600;}
+}
